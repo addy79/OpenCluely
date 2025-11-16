@@ -2,7 +2,7 @@
 
 # 🧠 OpenCluely 
 
-<!-- Development Banner -->
+
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Under%20Active%20Development-FFA500?style=for-the-badge&logo=github&logoColor=white" alt="Under Active Development" />
 </p>
