@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 OpenCluely 
+#  OpenCluely 
 
 
 <p align="center">
@@ -30,18 +30,18 @@
 
 **OpenCluely** is a revolutionary AI-powered desktop application that provides **invisible, real-time assistance** during technical rounds.
 
-## 🎬 Demo Video
+##  Demo Video
 
 https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 </div>
 
-## 🌟 Why OpenCluely?
+##  Why OpenCluely?
 
 <table>
 <tr>
 <td width="50%">
 
-### 🥷 **100% Stealth Mode**
+###  **100% Stealth Mode**
 - **Invisible to Screen Sharing**: Zoom, Teams, Meet, Discord
 - **Process Disguise**: Appears as normal system process (Terminal, Activity Monitor, Settings)
 - **Click-Through Windows**: Transparent overlay technology
@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 </td>
 <td width="50%">
 
-### 🚀 **AI-Powered Intelligence**
+###  **AI-Powered Intelligence**
 - **Direct Image Analysis**: Screenshots are analyzed by Gemini (no Tesseract OCR)
 - **Voice Commands**: Optional Azure Speech (Whisper questions, get instant answers)
 - **Context Memory**: Remembers entire interview conversation
@@ -62,16 +62,16 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 </tr>
 </table>
 
-## 🖼️ Modern UI Features
+##  Modern UI Features
 
-### 📱 **Interactive Windows**
+###  **Interactive Windows**
 - **Floating Overlay Bar**: Compact command center with camera, mic, and skill selector
 - **Draggable Answer Window**: Move and resize AI response window anywhere
 - **Close Button**: Clean × button to close answer window when needed
 - **Auto-Hide Mic**: Microphone button appears only when Azure Speech is configured
 - **Interactive Chat**: Full conversation window with markdown support
 
-### 🎨 **Visual Design**
+###  **Visual Design**
 - **Glass Morphism**: Beautiful blur effects and transparency
 - **Adaptive Layout**: UI adjusts based on available services
 - **Smart Resizing**: Windows resize automatically to fit content
@@ -79,15 +79,15 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 
 ---
 
-## 🎯 Functional Overview
+##  Functional Overview
 
-### 📋 **Core Components**
+###  **Core Components**
 
 <table>
 <tr>
 <td width="33%">
 
-#### 🖱️ **Main Overlay**
+####  **Main Overlay**
 - Floating command bar
 - Screenshot capture (⌘⇧S)
 - Microphone toggle (Optional)
@@ -98,7 +98,7 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 </td>
 <td width="33%">
 
-#### 💬 **Interactive Chat**
+####  **Interactive Chat**
 - Real-time transcription
 - AI conversation
 - Markdown formatting
@@ -109,7 +109,7 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 </td>
 <td width="33%">
 
-#### 📊 **Answer Window**
+####  **Answer Window**
 - Draggable interface
 - Close button (×)
 - Split layout for code
@@ -123,9 +123,9 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 
 
 ---
-## ✅ To-Do List & Development Status
+##  To-Do List & Development Status
 
-### 🎯 **Core Features** *(Completed)*
+###  **Core Features** *(Completed)*
 
 - [x] **Stealth overlay** with draggable command bar and click‑through toggle
 - [x] **Screenshot capture** with direct Gemini analysis (no OCR step)
@@ -138,7 +138,7 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 - [x] **Window binding** and positioning system
 - [x] **Settings management** with app icon/stealth modes
 
-### 🚧 **Planned Features** *(In Development)*
+###  **Planned Features** *(In Development)*
 
 - [ ] **Hidden during screen share** (auto‑hide all windows while screen is being shared)
 - [ ] **Multi‑model support** (OpenAI/Anthropic/Local backends alongside Gemini)
@@ -149,7 +149,7 @@ https://github.com/user-attachments/assets/896a7140-1e85-405d-bfbe-e05c9f3a816b
 
 ---
 
-### ⚙️ **Configuration**
+###  **Configuration**
 
 The setup script automatically handles configuration. You only need:
 
@@ -164,9 +164,9 @@ AZURE_SPEECH_REGION=your_region
 
 **Note**: Speech recognition is completely optional. If Azure credentials are not provided, the microphone button will be automatically hidden from all interfaces.
 
-## 🚀 Quick Start & Installation
+##  Quick Start & Installation
 
-### ⚡ Three Simple Steps (All Operating Systems)
+###  Three Simple Steps (All Operating Systems)
 
 1. **Clone the repository**
    ```bash
@@ -227,9 +227,9 @@ Voice recognition is completely optional. The setup script will create a `.env` 
 
 3. Restart the app - microphone buttons will now appear automatically
 
-## 🎮 How to Use
+##  How to Use
 
-### 🖱️ **Main Controls**
+###  **Main Controls**
 
 | Action | Shortcut | Description |
 |--------|----------|-------------|
@@ -240,7 +240,7 @@ Voice recognition is completely optional. The setup script will create a `.env` 
 | **Switch to Chat** | `⌘⇧C` | Open interactive chat window |
 | **Settings** | `⌘,` | Open settings panel |
 
-### 🎯 **Workflow**
+###  **Workflow**
 
 1. **Start OpenCluely** → App appears as system process (Terminal/Activity Monitor)
 2. **Position Windows** → Drag overlay and answer windows to preferred locations
@@ -249,15 +249,15 @@ Voice recognition is completely optional. The setup script will create a `.env` 
 5. **Interactive Chat** → Type or speak for detailed conversations
 6. **Stay Stealth** → All operations invisible to screen recording
 
-### 🔧 **Advanced Features**
+###  **Advanced Features**
 
-#### 🎨 **Window Management**
+####  **Window Management**
 - **Draggable Interface**: Click and drag any window to reposition
 - **Auto-resize**: Windows automatically adjust to content
 - **Close Button**: Click × to close answer window
 - **Always on Top**: Windows stay above all applications
 
-#### 🧠 **AI Intelligence**
+####  **AI Intelligence**
 - **Context Awareness**: Remembers entire conversation
 - **Code Detection**: Automatically formats code blocks
 - **Language Specific**: Tailored responses for selected programming language
@@ -265,7 +265,7 @@ Voice recognition is completely optional. The setup script will create a `.env` 
  - **Image Understanding**: DSA prompt is applied only for new image-based queries; chat messages don’t include the full prompt
  - **Multi-monitor & Area Capture**: Programmatic APIs allow targeting a display and optional rectangular crop for focused analysis
 
-#### 🔊 **Optional Voice Features** (Azure Speech)
+####  **Optional Voice Features** (Azure Speech)
 - **Real-time Transcription**: Speak questions naturally
 - **Listening Animation**: Visual feedback during recording
 - **Interim Results**: See transcription as you speak
@@ -274,7 +274,7 @@ Voice recognition is completely optional. The setup script will create a `.env` 
 ---
 
 <details markdown="1">
-<summary>🧩 <b> Troubleshooting</summary>
+<summary> <b> Troubleshooting</summary>
 
 ### Setup Issues
 
@@ -310,9 +310,9 @@ Voice recognition is completely optional. The setup script will create a `.env` 
 </details>
 
 <details markdown="2">
-<summary>⚖️ Legal & Ethics</summary>
+<summary> Legal & Ethics</summary>
 
-### 📋 **Disclaimer**
+###  **Disclaimer**
 
 OpenCluely is provided for educational and research purposes. Users are responsible for:
 - Complying with interview guidelines
@@ -320,7 +320,7 @@ OpenCluely is provided for educational and research purposes. Users are responsi
 - Understanding legal implications
 - Using ethically and responsibly
 
-### 🔒 **Privacy**
+###  **Privacy**
 
 - No data collection or telemetry
 - All processing happens locally
@@ -338,23 +338,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </b>
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google Gemini**: Powering AI intelligence
 - **Azure Speech**: Optional voice recognition
 - **Electron**: Cross-platform desktop framework
-- **Community**: Amazing contributors and feedback
 
-- **Vysper**: UI and code structure inspiration — see [Vysper by varun-singhh](https://github.com/varun-singhh/Vysper)
+⭐⭐⭐⭐⭐ **Star this repo** if OpenCluely helped you ace your interviews or you vibed with it!
 
----
-<div align="center">
-
-
-
-⭐ **Star this repo** if OpenCluely helped you ace your interviews or you vibed with it!
-
-**Made with ❤️ by [TechyCSR](https://techycsr.dev)**
 
 
 </div>
